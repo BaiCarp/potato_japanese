@@ -1,0 +1,20 @@
+# potato_japanese.dict.yaml
+---
+name: potato_japanese
+version: "0.1"
+sort: by_weight
+use_preset_vocabulary: false
+import_tables:
+  - jp_dicts/ptt_kana # 假名
+  - jp_dicts/ptt_waji  #  和字
+  - jp_dicts/ptt_sentence # 句式
+  - jp_dicts/ptt_part-1 # 地理
+  - jp_dicts/ptt_part-2 # 颜色
+  - jp_dicts/ptt_part-3 # 人际关系
+  - jp_dicts/ptt_part-4 # 运动
+  - jp_dicts/ptt_part-5 # IT
+  - jp_dicts/ptt_part-6 # 名人
+  - jp_dicts/ptt_part-7 # 姓氏
+  - jp_dicts/ptt_part-8 # 时间
+...
+
