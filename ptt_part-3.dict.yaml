@@ -1,0 +1,61 @@
+# Rime dictionary: 日本関係称谓（拆行版）
+---
+name: ptt_part-3
+version: "1.0"
+sort: by_weight
+...
+
+父親	chichioya	100
+ちちおや	chichioya	99
+母親	hahaoya	100
+ははおや	hahaoya	99
+息子	musuko	100
+むすこ	musuko	99
+娘	musume	100
+むすめ	musume	99
+妻	tsuma	100
+つま	tsuma	99
+夫	otto	100
+おっと	otto	99
+主人	shujin	98
+しゅじん	shujin	97
+家内	kanai	98
+かない	kanai	97
+父	chichi	96
+ちち	chichi	95
+母	haha	96
+はは	haha	95
+お父さん	otousan	94
+おとうさん	otousan	93
+お母さん	okaasan	94
+おかあさん	okaasan	93
+おじ	oji	92
+おば	oba	92
+叔父	oji	91
+伯父	oji	91
+伯母	oba	91
+従兄弟	itoko	90
+いとこ	itoko	89
+兄	ani	88
+あに	ani	87
+姉	ane	88
+あね	ane	87
+弟	otouto	86
+おとうと	otouto	85
+妹	imouto	86
+いもうと	imouto	85
+兄さん	niisan	84
+にいさん	niisan	83
+姉さん	neesan	84
+ねえさん	neesan	83
+私	watashi	100
+わたし	watashi	99
+僕	boku	98
+ぼく	boku	97
+俺	ore	96
+おれ	ore	95
+あなた	anata	100
+君	kimi	98
+きみ	kimi	97
+お前	omae	96
+おまえ	omae	95

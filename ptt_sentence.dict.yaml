@@ -1,0 +1,1024 @@
+# ptt_Sentence.dict.yaml
+---
+name: ptt_sentence
+version: "2.0"
+sort: by_weight
+...
+
+# 基本断定句式
+です	desu
+だ	da
+である	dearu
+であります	dearimasu
+でございます	degozaimasu
+でした	deshita
+だった	datta
+でありました	dearimashita
+ではありません	dehaarimasen
+じゃありません	jaarimasen
+じゃない	janai
+ではない	dehanai
+じゃなかった	janakatta
+ではなかった	dehanakatta
+# 否定句式
+ない	nai
+ません	masen
+ないです	naidesu
+なくない	nakunai
+なかった	nakatta
+ませんでした	masendeshita
+ないでした	naideshita
+なくありません	nakuarimasen
+なくないです	nakunaidesu
+ず	zu
+ずに	zuni
+ぬ	nu
+ん	n
+ないで	naide
+なくて	nakute
+ずして	zushite
+# 丁宁语句式
+ます	masu
+ました	mashita
+ましょう	mashou
+ませ	mase
+まして	mashite
+ませんか	masenka
+ましょうか	mashouka
+ますよ	masuyo
+ますね	masune
+ますわ	masuwa
+# 过去式句式
+た	ta
+かった	katta
+った	tta
+いだ	ida
+んだ	nda
+いた	ita
+えった	etta
+んだった	ndatta
+ていた	teita
+でいた	deita
+っていった	tteitta
+# 推量・意志句式
+う	u
+よう	you
+だろう	darou
+でしょう	deshou
+かもしれない	kamoshirenai
+そうだ	souda
+らしい	rashii
+ようだ	youda
+みたいだ	mitaida
+はずだ	hazuda
+に違いない	ni chigainai
+べきだ	bekida
+つもりだ	tsumorida
+予定だ	yoteida
+意志だ	ishida
+# 条件句式
+ば	ba
+と	to
+たら	tara
+なら	nara
+ては	teha
+では	deha
+ならば	naraba
+であれば	deareba
+でしたら	deshitara
+ますれば	masureba
+でしたなら	deshitara
+# 假定句式
+もし	moshi
+仮に	karini
+としたら	toshitara
+とすれば	tosureba
+だったら	dattara
+のであれば	nodeareba
+からであれば	karadeareba
+# 接续句式
+て	te
+で	de
+し	shi
+から	kara
+ので	node
+が	ga
+けれども	keredomo
+けど	kedo
+のに	noni
+ながら	nagara
+つつ	tsutsu
+ものの	monono
+くせに	kuseni
+ところが	tokoroga
+# 原因・理由句式
+ため	tame
+によって	niyotte
+によっては	niyotteha
+せいで	seide
+おかげで	okagede
+理由で	riyuu de
+原因で	genin de
+だから	dakara
+なので	nanode
+ですから	desukara
+ますから	masukara
+# 目的句式
+ために	tameni
+ように	youni
+には	niha
+ためには	tameniha
+ようには	youniha
+べく	beku
+んがため	nngatame
+# 比较句式
+より	yori
+ほど	hodo
+くらい	kurai
+ぐらい	gurai
+として	toshite
+と同じ	to onaji
+と違う	to chigau
+と比べて	to kurabete
+のように	no youni
+のような	no youna
+といった	to itta
+# 并列句式
+や	ya
+とか	toka
+たり	tari
+また	mata
+そして	soshite
+それから	sorekara
+及び	oyobi
+並びに	narabini
+かつ	katsu
+しかも	shikamo
+その上	sonoue
+# 转折句式
+しかし	shikashi
+でも	demo
+だが	daga
+ですが	desuga
+ですけど	desukedo
+なんですが	nandesuga
+なんですけど	nandesukedo
+# 逆接句式
+にもかかわらず	nimokakawarazu
+というのに	to iu noni
+といえども	to iedomo
+# 添加句式
+さらに	sarani
+なお	nao
+あわせて	awasete
+加えて	kuwaete
+付け加えると	tsukekuwaeruto
+# 说明句式
+つまり	tsumari
+すなわち	sunawachi
+例えば	tatoeba
+いわば	iwaba
+要するに	yousuruni
+言い換えれば	iikaereba
+というのは	to iu noha
+というわけで	to iu wake de
+# 总结句式
+結局	kekkyoku
+最終的に	shuusaiteki ni
+まとめると	matomeruto
+総じて	soujite
+全体として	zentai toshite
+概して	gaishite
+一言で言うと	hitokoto de iuto
+# 话题转换句式
+ところで	tokorode
+さて	sate
+それでは	soredeha
+それなら	sorenara
+話は変わって	hanashi wa kawatte
+余談ですが	yodan desuga
+ちなみに	chinamini
+# 疑问句式
+か	ka
+のか	noka
+ですか	desuka
+ますか	masuka
+ないか	naika
+かな	kana
+かしら	kashira
+だろうか	darouka
+でしょうか	deshouka
+ないだろうか	naidarouka
+ないですか	naidesuka
+# 感叹句式
+ね	ne
+よ	yo
+な	na
+わ	wa
+ぞ	zo
+ぜ	ze
+もの	mono
+こと	koto
+さ	sa
+い	i
+え	e
+お	o
+# 请求・命令句式
+ください	kudasai
+なさい	nasai
+てください	tekudasai
+ろ	ro
+せよ	seyo
+しろ	shiro
+され	sare
+# 可能句式
+できる	dekiru
+られます	raremasu
+える	eru
+得る	eru
+することができる	suru koto ga dekiru
+可能だ	kanou da
+できない	dekenai
+られない	rarenai
+えない	enai
+# 被动句式
+れる	reru
+られる	rareru
+される	sareru
+せられる	serareru
+させられる	saseraru
+れた	reta
+られた	rareta
+された	sareta
+られている	rareteiru
+# 使役句式
+せる	seru
+させる	saseru
+しめる	shimeru
+せさせる	sesaseru
+せた	seta
+させた	saseta
+しめた	shimeta
+# 尊敬语句式
+なさる	nasaru
+お～になる	o~ninaru
+ご～になる	go~ninaru
+お～なさる	o~nasaru
+ご～なさる	go~nasaru
+お～ください	o~kudasai
+ご～ください	go~kudasai
+# 谦让语句式
+お～する	o~suru
+ご～する	go~suru
+いたす	itasu
+申す	mousu
+参る	mairu
+伺う	ukagau
+頂く	itadaku
+拝見する	haiken suru
+申し上げる	moushiageru
+# 郑重语句式
+ございます	gozaimasu
+おります	orimasu
+存じます	zonjimasu
+申します	moushimasu
+参ります	mairimasu
+いたします	itashimasu
+なります	narimasu
+ございました	gozaimashita
+# 样态句式
+みたい	mitai
+そうな	souna
+ような	youna
+みたいな	mitaina
+そうに	souni
+らしく	rashiku
+みたいに	mitaini
+# 传闻句式
+ということ	to iu koto
+由	yoshi
+とのこと	to no koto
+という	to iu
+と聞く	to kiku
+据え	sue
+によると	ni yoruto
+によれば	ni yoreba
+# 程度句式
+とても	totemo
+非常に	hijouni
+かなり	kanari
+相当	soutou
+大変	taihen
+極めて	kiwamete
+めっちゃ	meccha
+超	chou
+すごく	sugoku
+# 时间关系句式
+前に	maeni
+後に	nochi ni
+とき	toki
+際に	sai ni
+うちに	uchi ni
+までに	made ni
+において	oite
+にかけて	ni kakete
+を通じて	wo tsuujite
+においては	oiteha
+# 场所句式
+に	ni
+を通って	wo tootte
+での	de no
+における	ni okeru
+# 方向句式
+へ	e
+まで	made
+に向かって	ni mukatte
+へと	eto
+への	eno
+までの	made no
+# 对象句式
+に対して	ni taishite
+について	ni tsuite
+に関して	ni kanshite
+に向けて	ni mukete
+に対する	ni tai suru
+についての	ni tsuite no
+# 手段・方法句式
+によって	ni yotte
+を通して	wo tooshite
+を使って	wo tsukatte
+により	ni yori
+をもって	wo motte
+として	to shite
+でもって	demo tte
+# 共动句式
+と一緒に	to issho ni
+と共に	to tomo ni
+とともに	to tomo ni
+と共同で	to kyoudou de
+と協力して	to kyouryoku shite
+# 限度句式
+だけ	dake
+のみ	nomi
+ばかり	bakari
+きり	kiri
+しか	shika
+限度	gendo
+限界	genkai
+範囲	han'i
+# 例外句式
+以外	igai
+除いて	nozoite
+を除く	wo nozoku
+以外は	igai wa
+以外に	igai ni
+を除いて	wo nozoite
+以外の	igai no
+# 强调句式
+こそ	koso
+さえ	sae
+すら	sura
+# 反复・习惯句式
+いつも	itsumo
+常に	tsune ni
+毎回	maikai
+度に	tabi ni
+繰り返し	kurikaeshi
+習慣的に	shuukanteki ni
+定期的に	teikiteki ni
+頻繁に	hinpan ni
+# 完了句式
+てしまう	te shimau
+終わる	owaru
+済む	sumu
+完了する	kanryou suru
+終了する	shuuryou suru
+終える	oeru
+済ます	sumasu
+# 开始句式
+始める	hajimeru
+出す	dasu
+かける	kakeru
+開始する	kaishi suru
+始まる	hajimaru
+出だす	hedasu
+かけ始める	kakehajimeru
+# 继续句式
+続ける	tsuzukeru
+っぱなし	ppanashi
+続く	tsuzuku
+持続する	jizoku suru
+継続する	keizoku suru
+続けている	tsuzuketeiru
+# 结束句式
+上げる	ageru
+済ませる	sumaseru
+# 尝试句式
+てみる	te miru
+てみせる	te miseru
+試みる	kokoromiru
+試す	tamesu
+実験する	jikken suru
+試してみる	tameshite miru
+# 难易句式
+やすい	yasui
+にくい	nikui
+がたい	gatai
+づらい	zurai
+易しい	yasashii
+難しい	muzukashii
+困難な	konnan na
+簡単な	kantan na
+# 希望句式
+たい	tai
+たがる	tagaru
+ほしい	hoshii
+てほしい	te hoshii
+願う	negau
+希望する	kibou suru
+望む	nozomu
+欲する	hossuru
+# 义务句式
+なければならない	nakereba naranai
+なくてはいけない	nakute wa ikenai
+べき	beki
+ねばならない	neba naranai
+なければいけない	nakereba ikenai
+べきである	beki de aru
+義務がある	gimu ga aru
+# 禁止句式
+てはいけない	te wa ikenai
+禁止	kinshi
+べからず	bekarazu
+てはならない	te wa naranai
+てはいけません	te wa ikemasen
+してはだめ	shite wa dame
+# 许可句式
+てもいい	te mo ii
+てもかまわない	te mo kamawanai
+てもよい	te mo yoi
+可能	kanou
+許可する	kyoka suru
+許す	yurusu
+いい	ii
+かまわない	kamawanai
+# 不必要句式
+なくてもいい	nakute mo ii
+必要はない	hitsuyou wa nai
+までもない	made mo nai
+要らない	iranai
+不要	fuyou
+必要ない	hitsuyou nai
+いらない	iranai
+# 评价句式
+よい	yoi
+悪い	warui
+素晴らしい	subarashii
+ひどい	hidoi
+立派な	rippa na
+すばらしい	subarashii
+# 变化句式
+なる	naru
+する	suru
+変わる	kawaru
+変化	henka
+変える	kaeru
+変化する	henka suru
+変わってくる	kawatte kuru
+# 状态句式
+ている	te iru
+である	de aru
+であった	de atta
+ているところ	te iru tokoro
+# 经验句式
+たことがある	ta koto ga aru
+たことがない	ta koto ga nai
+たことがあります	ta koto ga arimasu
+たことはある	ta koto wa aru
+たことはない	ta koto wa nai
+経験がある	keiken ga aru
+経験がない	keiken ga nai
+# 传闻确认句式
+のです	no desu
+んです	n desu
+わけだ	wake da
+というわけだ	to iu wake da
+ということだ	to iu koto da
+# 说明原因句式
+からだ	kara da
+のだ	no da
+ためだ	tame da
+せいだ	sei da
+おかげだ	okage da
+理由だ	riyuu da
+# 对比句式
+一方	ippou
+反面	hanmen
+にかわって	ni kawatte
+に対し	ni taishi
+と対照的に	to taishouteki ni
+# 举例句式
+のような	no you na
+など	nado
+を例に	wo rei ni
+# 选择句式
+または	mata wa
+あるいは	aruiha
+もしくは	moshikuha
+それとも	soretomo
+または	matawa
+# 假定条件句式
+もしも	moshimo
+仮に	kari ni
+としたら	to shitara
+とすれば	to sureba
+# 确定条件句式
+際	sai
+場合	baai
+たび	tabi
+時	toki
+際には	sai ni wa
+場合には	baai ni wa
+# 让步句式
+ても	te mo
+でも	de mo
+とも	to mo
+たって	tatte
+# 极限句式
+# 感叹词句式
+ああ	aa
+まあ	maa
+おお	oo
+わあ	waa
+あら	ara
+おや	oya
+ええ	ee
+はい	hai
+いいえ	iie
+# 应答句式
+うん	un
+ううん	uun
+いや	iya
+そうです	sou desu
+違います	chigaimasu
+# 招呼句式
+こんにちは	konnichi wa
+こんばんは	konban wa
+おはよう	ohayou
+さようなら	sayounara
+お元気ですか	ogenki desu ka
+久しぶり	hisashiburi
+お久しぶりです	ohisashiburi desu
+# 感谢句式
+ありがとう	arigatou
+ありがとうございます	arigatou gozaimasu
+感謝します	kansha shimasu
+お礼を申し上げます	orei wo moushiagemasu
+恐れ入ります	osore irimasu
+恐縮です	kyoushuku desu
+# 道歉句式
+すみません	sumimasen
+ごめんなさい	gomen nasai
+申し訳ありません	moushiwake arimasen
+お詫び申し上げます	owabi moushiagemasu
+失礼しました	shitsurei shimashita
+謝ります	ayamarimasu
+# 邀请句式
+ませんか	masen ka
+いかがですか	ikaga desu ka
+どうですか	dou desu ka
+おいでください	oide kudasai
+来てください	kite kudasai
+# 建议句式
+たらどうですか	tara dou desu ka
+ほうがいい	hou ga ii
+べきだ	beki da
+おすすめです	osusume desu
+したら	shitara
+すれば	sureba
+# 同意句式
+その通り	sono toori
+同意します	doui shimasu
+賛成です	sansei desu
+もちろん	mochiron
+当然	touzen
+# 不同意句式
+そうではありません	sou de wa arimasen
+反対です	hantai desu
+同意できません	doui dekimasen
+賛成できません	sansei dekimasen
+そう思わない	sou omowanai
+# 不确定句式
+わかりません	wakarimasen
+知りません	shirimasen
+不明です	fumei desu
+確かではありません	tashika de wa arimasen
+もしかしたら	moshika shitara
+かもしれません	kamoshiremasen
+# 确认句式
+ですか	desu ka
+ますか	masu ka
+ですね	desu ne
+でしょうか	deshou ka
+# 惊讶句式
+ええ	e
+なんて	nante
+なんと	nanto
+信じられない	shinjirarenai
+驚いた	odoroita
+# 失望句式
+残念です	zannen desu
+がっかりです	gakkari desu
+失望です	shitsubou desu
+残念ながら	zannen nagara
+惜しい	oshii
+# 满意句式
+満足です	manzoku desu
+嬉しい	ureshii
+良かった	yokatta
+最高	saikou
+完璧	kanpeki
+# 担心句式
+心配です	shinpai desu
+不安です	fuan desu
+気になります	ki ni narimasu
+懸念します	kenen shimasu
+恐れます	osoremasu
+# 期待句式
+楽しみです	tanoshimi desu
+期待しています	kitai shite imasu
+待ち遠しい	machidokoshii
+望んでいます	nozonde imasu
+願っています	negatte imasu
+# 比较级句式
+より～	yori~
+もっと～	motto~
+さらに～	sarani~
+一段と～	ichidanto~
+ぐっと～	gutto~
+ずっと～	zutto~
+# 最上级句式
+一番～	ichiban~
+最も～	mottomo~
+最高に～	saikou ni~
+極めて～	kiwamete~
+非常に～	hijou ni~
+とても～	totemo~
+# 比例句式
+につれて	ni tsurete
+にしたがって	ni shitagatte
+にともなって	ni tomonatte
+ば～ほど	ba~hodo
+ほど～	hodo~
+だけ～	dake~
+# 经过句式
+に沿って	ni sotte
+に沿い	ni soi
+を経て	wo hete
+# 经过时间句式
+てから	te kara
+後で	ato de
+経って	tatte
+過ぎて	sugite
+# 同时句式
+と同時に	to douji ni
+# 直前句式
+直前	chokuzen
+すぐ前に	sugu mae ni
+直前に	chokuzen ni
+前に	mae ni
+# 直後句式
+直後	chokugo
+すぐ後	sugu ato
+てすぐ	te sugu
+# 持续句式
+ずっと	zutto
+いつまでも	itsumade mo
+# 瞬间句式
+た瞬間	ta shunkan
+とたんに	totanni
+やいなや	yainaya
+次第	shidai
+すぐに	sugu ni
+# 偶然句式
+たまたま	tamatama
+偶然	guuzen
+偶然に	guuzen ni
+# 意图句式
+ようと思う	you to omou
+つもりだ	tsumori da
+予定だ	yotei da
+意志だ	ishi da
+計画だ	keikaku da
+# 决心句式
+決心した	kesshin shita
+決めた	kimeta
+決意した	ketsui shita
+固く誓う	kataku chikau
+心に決めた	kokoro ni kimeta
+# 努力句式
+努力する	doryoku suru
+頑張る	ganbaru
+努める	tsutomeru
+励む	hagemu
+精進する	shoujin suru
+# 成功句式
+成功した	seikou shita
+達成した	tassei shita
+成し遂げた	nashitogeta
+やり遂げた	yaritogeta
+実現した	jitsugen shita
+# 失败句式
+失敗した	shippai shita
+しくじった	shikujitta
+だめだった	dame datta
+うまくいかなかった	umaku ikanakatta
+挫折した	zasetsu shita
+# 习惯句式
+習慣	shuukan
+癖	kuse
+常習	joushuu
+習性	shusei
+慣例	kanrei
+# 传统句式
+伝統	dentou
+しきたり	shikitari
+因襲	inshuu
+慣習	kanshuu
+風習	fuushuu
+# 现代句式
+現代的な	gendaiteki na
+現代的	gendaiteki
+モダンな	modan na
+現代風	gendaifuu
+# 未来句式
+将来	shourai
+未来	mirai
+今後	kongo
+これから	korekara
+将来的に	shouraiteki ni
+# 过去句式
+過去	kako
+昔	mukashi
+以前	izen
+かつて	katsute
+昔々	mukashi mukashi
+# 现在句式
+現在	genzai
+今	ima
+现如今	ima
+目下	mokka
+# 敬语体系补充
+お～いたす	o~itasu
+ご～いたす	go~itasu
+お～申し上げる	o~moushiageru
+ご～申し上げる	go~moushiageru
+お～願いします	o~negai shimasu
+ご～願いします	go~negai shimasu
+お～くださいます	o~kudasaimasu
+ご～くださいます	go~kudasaimasu
+# 复合接续助词
+もので	monode
+ものだから	mono dakara
+ものでして	monode shite
+ものなら	mono nara
+ものの	mono no
+ものを	mono wo
+# 文语残留表达
+べし	beshi
+ごとし	gotoshi
+ずんば	zunba
+まじ	maji
+じ	ji
+り	ri
+# 口语强调表达
+っす	ssu
+っすか	ssuka
+んだよね	nda yo ne
+じゃん	jan
+じゃんか	janka
+っしょ	ssho
+ってば	tteba
+ったら	ttara
+って	tte
+# 书面语体表达
+ならびに	narabini
+および	oyobi
+ただし	tadashi
+たとえば	tatoeba
+# 法律公文表达
+とする	to suru
+ものとする	mono to suru
+ことができる	koto ga dekiru
+ことができるものとする	koto ga dekiru mono to suru
+# 科技论文表达
+と考えられる	to kangaerareru
+と推定される	to suitei sareru
+と判断される	to handan sareru
+と予想される	to yosou sareru
+と報告されている	to houkoku sareteiru
+と指摘されている	to shiteki sareteiru
+# 商业文书表达
+させていただきます	sasete itadakimasu
+ご検討ください	go kentou kudasai
+ご査収ください	go sashuu kudasai
+お取り計らいください	o tori hakarai kudasai
+ご了承ください	go ryoushou kudasai
+# 感情表达补充
+ちゃう	chau
+じゃう	jau
+ちまう	chimau
+じまう	jimau
+てた	te ta
+とく	toku
+どく	doku
+# 青年用语
+みたいな	mitai na
+っぽい	ppoi
+げ	ge
+気味	gimi
+# 网络用语
+w	w
+草	kusa
+うp	u p
+すき	suki
+きらい	kirai
+尊い	tattoi
+ぴょん	pyon
+# 方言表达
+じゃ	jya
+け	ke
+ねん	nen
+したっけ	shitakke
+# 诗歌修辞
+せ	se
+れ	re
+つ	tsu
+# 成语熟语
+ざるを得ない	zaru wo enai
+には及ばない	niwa oyobanai
+に過ぎない	ni suginai
+べきではない	beki dewa nai
+わけにはいかない	wake niwa ikanai
+# 专业领域表达
+と定義される	to teigi sareru
+と称される	to shou sareru
+とみなされる	to minasareru
+と規定される	to kitei sareru
+と区分される	to kubun sareru
+# 媒体报导表达
+と発表された	to happyou sareta
+と明らかになった	to akiraka ni natta
+と判明した	to hanmei shita
+とされている	to sareteiru
+とのことです	to no koto desu
+# 学术讨论表达
+と議論されている	to giron sareteiru
+と問題視されている	to mondai shi sareteiru
+と評価されている	to hyouka sareteiru
+と位置づけられている	to ichizuke rareteiru
+と理解されている	to rikai sareteiru
+# 正式演讲表达
+申し上げます	moushiagemasu
+伺います	ukagaimasu
+賜ります	tamawarimasu
+頂戴します	choudai shimasu
+# 电话对应表达
+お電話ありがとうございます	o denwa arigatou gozaimasu
+少々お待ちください	shoushou o machi kudasai
+おつなぎします	o tsunagi shimasu
+折り返しお電話ください	orikaeshi o denwa kudasai
+# 邮件书面表达
+ご連絡いたします	go renraku itashimasu
+ご報告申し上げます	go houkoku moushiagemasu
+お知らせいたします	o shirase itashimasu
+ご案内申し上げます	go annai moushiagemasu
+# 客户对应表达
+承知いたしました	shouchi itashimashita
+かしこまりました	kashikomarimashita
+承りました	uketamawarimashita
+# 社内对应表达
+お疲れ様です	o tsukare sama desu
+ご苦労様です	go kuroo sama desu
+失礼します	shitsurei shimasu
+お先に失礼します	o saki ni shitsurei shimasu
+# 新增复合表达
+てならない	te naranai
+てたまらない	te tamaranai
+てしかたがない	te shikata ga nai
+ざるを得ない	zaru o enai
+にはあたらない	ni wa ataranai
+ずにはいられない	zu ni wa irarenai
+ないではいられない	nai de wa irarenai
+よりほかない	yori hoka nai
+ほかならない	hoka naranai
+にほかならない	ni hoka naranai
+というほかない	to iu hoka nai
+てはばからない	te wa bakaranai
+ないわけにはいかない	nai wake ni wa ikanai
+ずにはおかない	zu ni wa okanai
+ないではおかない	nai de wa okanai
+ずにはすまない	zu ni wa sumanai
+ないではすまない	nai de wa sumanai
+てやまない	te yamanai
+にたえない	ni taenai
+てえらない	te eranai
+にかたくない	ni katakunai
+にたやすい	ni tayasui
+てこそはじめて	te koso hajimete
+なければそれまでだ	nakereba sore made da
+たところで	ta tokoro de
+たが最後	ta ga saigo
+た以上	ta ijou
+からといって	kara to itte
+としたって	to shitatte
+にせよ	ni seyo
+にしろ	ni shiro
+と思いきや	to omoikiya
+かと思うと	ka to omou to
+が早いか	ga hayai ka
+なり	nari
+そばから	soba kara
+てからでないと	te kara denai to
+ないことには	nai koto ni wa
+ことはない	koto wa nai
+には及ばない	ni wa oyobanai
+に足る	ni taru
+に足らない	ni taranai
+に限る	ni kagiru
+に越したことはない	ni koshita koto wa nai
+てしかるべき	te shikaru beki
+まじき	majiki
+ごとき	gotoki
+ごとく	gotoku
+めく	meku
+じみる	jimiru
+ぶる	buru
+がち	gachi
+きる	kiru
+ぬく	nuku
+こなす	konasu
+だす	dasu
+つく	tsuku
+あう	au
+おわる	owaru
+すぎる	sugiru
+うる	uru
+かねる	kaneru
+ものだ	mono da
+ことだ	koto da
+ところだ	tokoro da
+ばかりだ	bakari da
+までだ	made da
+だけだ	dake da
+なんか	nanka
+だの	dano
+やら	yara
+につけ	ni tsuke
+ば～ほど	ba hodo
+かたがた	katagata
+がてら	gatera
+ついでに	tsuide ni
+にもかかわらず	ni mo kakawarazu
+だけに	dake ni
+ばかりに	bakari ni
+ところを	tokoro wo
+からには	kara ni wa
+以上	ijou
+上は	ue wa
+手前	temae
+だけあって	dake atte
+のみならず	nomi narazu
+ばかりか	bakari ka
+どころか	dokoro ka
+というより	to iu yori
+というか	to iu ka
+のか	no ka
+にとって	ni totte
+としても	to shite mo
+とすると	to suru to
+となると	to naru to
+となれば	to nareba
+といえば	to ieba
+というと	to iu to
+といったら	to ittara
+にしても	ni shite mo
+にしたって	ni shitatte
+であれ	de are
+とあれば	to areba
+ばこそ	ba koso
+からこそ	kara koso
+ならでは	nara dewa
+てこそ	te koso
+ばかりでなく	bakari de naku
+だけでなく	dake de naku
+はおろか	wa oroka
+までも	made mo
+だに	dani
+だって	datte
+といい	to ii
+ばいい	ba ii
+たらいい	tara ii
+とよい	to yoi
+まい	mai
+ふうだ	fuuda

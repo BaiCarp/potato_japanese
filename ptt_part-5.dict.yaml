@@ -1,0 +1,242 @@
+# Rime dictionary: IT词汇
+---
+name: ptt_part-5
+version: "1.0"
+sort: by_weight
+...
+
+# 编程语言
+Python	paison
+Java	jaba
+JavaScript	javasukuripto
+TypeScript	taipusukuripto
+C	shii
+C++	shiipurasu
+C#	shiishapu
+PHP	pii eichi pii
+Ruby	rubi
+Go	goo
+Rust	rasuto
+Swift	suwifuto
+Kotlin	kotorin
+Dart	daato
+Scala	sukara
+Perl	paaru
+R	aaru
+MATLAB	matorabu
+Objective-C	obujekutibushii
+# 框架与库
+React	riakuto
+Vue	bui
+Angular	angyura
+Svelte	suberuto
+Next.js	nekkusuto
+Nuxt	nakkusuto
+Express	ekusupuresu
+Django	jangoo
+Flask	furasuku
+Spring	supuringu
+Spring Boot	supuringu buuto
+Ruby on Rails	rubi on reiru
+Laravel	raraberu
+jQuery	jquery
+Bootstrap	buutosutorappu
+Tailwind	teirwindo
+# 数据库
+MySQL	mai esukyuueru
+PostgreSQL	posuto guresu kyueru
+MongoDB	mongo deebii
+Redis	redisu
+SQLite	esukyueru raito
+Oracle	orakuru
+SQL Server	esukyueru saabaa
+MariaDB	mariadeebii
+Cassandra	kyassandora
+Neo4j	neo foa jee
+InfluxDB	inufurakkusu deebii
+# 云计算
+AWS	ei daburyuu esu
+Azure	ajur
+GCP	jii shii pii
+AWS EC2	ei daburyuu esu ii shii tsuu
+AWS S3	ei daburyuu esu esu surii
+Lambda	randa
+Kubernetes	kubernetes
+Docker	dokka
+Terraform	terafoomu
+CloudFormation	kuraudo foomeeshon
+# 开发工具
+Git	gitto
+GitHub	gitto habu
+GitLab	gitto rabu
+VS Code	bui esu koodo
+IntelliJ	interijai
+Eclipse	ekuripusu
+PyCharm	paichaamu
+WebStorm	websutoomu
+Sublime Text	saburaimu tekisuto
+Vim	bimu
+Emacs	imakkusu
+# 网络技术
+TCP/IP	tii shii pii aipii
+HTTP	ecchi tii tii pii
+HTTPS	ecchi tii tii pii esu
+SSL	esu esu eru
+TLS	tii eru esu
+DNS	dii enu esu
+CDN	shii dii enu
+API	ei pii ai
+REST	resuto
+GraphQL	gurafu kyueru
+gRPC	jii aaru pii shii
+WebSocket	websoketto
+# 操作系统
+Linux	rinakkusu
+Windows	windowsu
+macOS	makkuesu
+Ubuntu	ubunto
+CentOS	sentosu
+Debian	debian
+RedHat	reddo hatto
+Android	andoroido
+iOS	ai osu
+# 人工智能
+機械学習	kikai gakushuu
+深層学習	shinsou gakushuu
+ニューラルネットワーク	nyuuraru nettowaaku
+強化学習	kyouka gakushuu
+自然言語処理	shizen gengo shori
+コンピュータビジョン	konpyuuta bijon
+TensorFlow	tensa furoo
+PyTorch	pai tochi
+Keras	kerasu
+OpenAI	oopun ai
+ChatGPT	chatto jii pii tii
+# 大数据
+Hadoop	hadoopu
+Spark	supaaku
+Flink	furinku
+Kafka	kafuka
+Hive	haibu
+HBase	eichi beesu
+Data Lake	deeta reiku
+Data Warehouse	deeta ueahausu
+ETL	ii tii eru
+ELK	eru eru kei
+# 安全技術
+暗号化	angouka
+認証	ninshou
+認可	ninka
+ファイアウォール	faiuaooru
+セキュリティ	sekyuriti
+マルウェア	maruwea
+ランサムウェア	ransamuwea
+脆弱性	zeijakusei
+パッチ	pacchi
+バグバウンティ	bagubaunti
+# 开发方法論
+アジャイル	ajairu
+スクラム	sukuramu
+ウォーターフォール	wootaafooru
+DevOps	debuopusu
+CI/CD	shii ai shii dii
+TDD	tii dii dii
+BDD	bii dii dii
+テスト駆動開発	tesuto kudou kaihatsu
+ペアプログラミング	pea puroguramingu
+# 职位与角色
+ソフトウェアエンジニア	sofutowea enjinia
+フロントエンドエンジニア	furonto endo enjinia
+バックエンドエンジニア	bakku endo enjinia
+フルスタックエンジニア	furu sutakku enjinia
+データサイエンティスト	deeta sai entisuto
+機械学習エンジニア	kikai gakushuu enjinia
+DevOpsエンジニア	debuopusu enjinia
+SRE	esu aaru ii
+QAエンジニア	kyuu ei enjinia
+テクニカルリード	tekunikaru riido
+CTO	shii tii oo
+CIO	shii ai oo
+# 基础设施
+サーバー	saabaa
+クライアント	kuraianto
+ネットワーク	nettowaaku
+ストレージ	sutoreeji
+ロードバランサー	roodo baransaa
+プロキシ	purokishi
+キャッシュ	kyasshu
+レプリケーション	repurikeeshon
+クラスタリング	kurasutaringu
+# 容器技术
+コンテナ	kontena
+Pod	poddo
+Service	saabisu
+Deployment	deploymento
+Helm	herumu
+Docker Compose	dokka konpozu
+Docker Swarm	dokka suwaamu
+# 监控与可观测性
+監視	kanshi
+ログ	rogu
+メトリクス	metorikusu
+トレーシング	toreeshingu
+Prometheus	prometeusu
+Grafana	gurafana
+Datadog	detadoggu
+New Relic	nyuu rerikku
+Sentry	sentorii
+# 消息队列
+RabbitMQ	rabittto emu kyuu
+ActiveMQ	akutibu emu kyuu
+ZeroMQ	zeromu kyuu
+# 前端技术
+HTML	ecchi tii emu eru
+CSS	shii esu esu
+Webpack	webpakku
+Vite	baito
+Babel	baberu
+Sass	sasu
+Less	lesu
+Web Components	web konponento
+# 移动开发
+React Native	riakuto neiteibu
+Flutter	furattaa
+Xamarin	zamarinn
+Ionic	aionikku
+Cordova	kordoba
+# 测试工具
+JUnit	jyunitto
+Selenium	sereniumu
+Cypress	saipuresu
+Jest	jesuto
+Mocha	mocha
+TestNG	tesuto enu jii
+Postman	posutoman
+SoapUI	soap yuu ai
+# 版本控制
+SVN	esu bui enu
+Mercurial	maakyuriaru
+GitHub	gittohabu
+GitLab	gittorabu
+Bitbucket	bitobaketto
+Subversion	sabavaajon
+# 项目管理
+JIRA	jira
+Confluence	konfuruensu
+Trello	toreero
+Asana	asana
+Slack	surakku
+Microsoft Teams	maikurosofuto tiimuzu
+Zoom	zuumu
+Basecamp	beisukyanpu
+# 数据结构与算法
+配列	hairetsu
+連結リスト	renketsu risuto
+スタック	sutakku
+キュー	kyuu
+木構造	ki kouzou
+グラフ	gurafu
+ハッシュテーブル	hasshu teeburu
+ソートアルゴリズム	sooto arugorizumu
+探索アルゴリズム	tansaku arugorizumu
+動的計画法	dou teki keikakuhou
