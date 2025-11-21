@@ -1,0 +1,106 @@
+# Rime schema for Potato Japanese Input
+# encoding: utf-8
+# 参考  雪齊的文檔：https://github.com/LEOYoon-Tsaw/Rime_collections/blob/master/Rime_description.md
+
+schema:
+  schema_id: potato_japanese  # 方案内部名稱
+  name: "土豆輸入法"  # 方案外顯名稱
+  version: "1.0"  #版本號
+  author: "Baicarp" #作者
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ 日文, A ]
+
+engine:
+  processors:
+    - ascii_composer  # 處理西文模式及中西文切換
+    - recognizer  # 處理符合特定規則的輸入碼
+    - speller # 拼寫處理器
+    - punctuator  # 句讀處理器
+    - selector  # 選字處理器 
+    - navigator # 處理輸入欄內的光標移動
+    - express_editor  #編輯器，處理空格、回車上屏、回退鍵
+  segmentors:
+    - ascii_segmentor # 標識西文段落
+    - abc_segmentor # 標識常規的文字段落
+    - punct_segmentor # 標識句讀段落
+  translators:
+    - punct_translator  # 轉換標點符號
+    - table_translator  # 碼表翻譯器
+  filters:
+    - simplifier  # 簡繁轉換
+    - uniquifier  # 去除重複
+
+speller:
+  #定義本方案輸入鍵
+  alphabet: abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'-
+  algebra:
+    # 基本假名處理
+    - derive/^n$/?n/
+    - derive/^nn$/n/
+    - derive/^n([^aiueoyn])/n$1/
+    
+    # 拗音處理
+    - xform/^ky([aiueo])/k$1/
+    - xform/^shy([aiueo])/sh$1/
+    - xform/^chy([aiueo])/ch$1/
+    - xform/^ny([aiueo])/n$1/
+    - xform/^hy([aiueo])/h$1/
+    - xform/^my([aiueo])/m$1/
+    - xform/^ry([aiueo])/r$1/
+    - xform/^gy([aiueo])/g$1/
+    - xform/^jy([aiueo])/j$1/
+    - xform/^by([aiueo])/b$1/
+    - xform/^py([aiueo])/p$1/
+    
+    # 促音處理
+    - xform/^tt([aiueo])/t$1/
+    - xform/^pp([aiueo])/p$1/
+    - xform/^kk([aiueo])/k$1/
+    - xform/^ss([aiueo])/s$1/
+
+translator:
+  dictionary: potato_japanese # 日文總詞典
+  enable_sentence: true      # 啟用句子模式
+  enable_encoder: true       # 啟用編碼器，進行智能分詞
+  enable_completion: true
+  encode_commit: false      # 編碼后直接提交
+  enable_user_dict: true    # 啓用用戶詞典
+  # 編碼器配置 - 支持長句智能分詞
+  encoder:
+    exclude_patterns:
+      - "^[a-z]*$"  # 排除純字母
+    rules:
+      - length_equal: 1
+        formula: "Aa"
+      - length_equal: 2
+        formula: "AaAb"
+      - length_equal: 3
+        formula: "AaAbAc"
+      - length_in_range: [4, 10]
+        formula: "AaAbAcAdAe"
+
+punctuator:
+  import_preset: default
+
+recognizer:
+  patterns:
+    # 基础字母识别
+    romaji: "^[a-zA-Z]+$"                    # 识别大小写混合罗马字
+    uppercase: "^[A-Z][A-Z]*$"               # 识别全大写单词
+    romaji_hyphen: "^[a-zA-Z]+[-][a-zA-Z]*"  # 识别大小写字母连字符
+    
+    # 句子和短语识别
+    sentence: "^[a-zA-Z]+[ ][a-zA-Z ]*$"     # 识别大小写混合的句子
+    sentence_lowercase: "^[a-z]+[ ][a-z ]*$" # 专门识别小写句子
+    
+    # 网络相关格式
+    email: "^[A-Za-z][-_.0-9A-Za-z]*@.*$"
+    url: "^(www[.]|https?:|ftp[.:]|mailto:|file:).*$|^[a-zA-Z]+[.].+$"
+    
+    # 数字+罗马字混合识别
+    alphanumeric_romaji: "^[0-9]+[a-zA-Z]+$"      # 数字开头+字母
+    romaji_alphanumeric: "^[a-zA-Z]+[0-9]+$"      # 字母开头+数字
+    mixed_alphanumeric: "^[a-zA-Z0-9]+$"          # 字母数字混合
