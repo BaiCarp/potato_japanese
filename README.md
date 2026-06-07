@@ -18,7 +18,7 @@ potato_japanese/
 │   └── ptt_part-7                   # 姓氏
 │   └── ptt_part-8                   # 时间
 │   └── ptt_part-9                   # 地铁站点
-
+│   └── ptt_part-10                  # 学校
 ```
 
 ##  📚 词库来源
