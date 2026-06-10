@@ -19,6 +19,8 @@ potato_japanese/
 │   └── ptt_part-8                   # 时间
 │   └── ptt_part-9                   # 地铁站点
 │   └── ptt_part-10                  # 学校
+│   └── ptt_part-11                  # 日本天皇
+│   └── ptt_part-12                  # 日本女艺人
 ```
 
 ##  📚 词库来源
