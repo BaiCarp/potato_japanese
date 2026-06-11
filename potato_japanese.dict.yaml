@@ -16,5 +16,9 @@ import_tables:
   - jp_dicts/ptt_part-6 # 名人
   - jp_dicts/ptt_part-7 # 姓氏
   - jp_dicts/ptt_part-8 # 时间
+  - jp_dicts/ptt_part-9 # 时间
+  - jp_dicts/ptt_part-10 # 学校
+  - jp_dicts/ptt_part-11 # 天皇
+  - jp_dicts/ptt_part-12 # 日本女艺人
 ...
 
