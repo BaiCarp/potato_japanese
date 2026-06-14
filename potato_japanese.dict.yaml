@@ -20,5 +20,6 @@ import_tables:
   - jp_dicts/ptt_part-10 # 学校
   - jp_dicts/ptt_part-11 # 天皇
   - jp_dicts/ptt_part-12 # 日本女艺人
+  - jp_dicts/ptt_part-13 # 日本男艺人
 ...
 
