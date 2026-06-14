@@ -21,6 +21,7 @@ potato_japanese/
 │   └── ptt_part-10                  # 学校
 │   └── ptt_part-11                  # 日本天皇
 │   └── ptt_part-12                  # 日本女艺人
+│   └── ptt_part-13                  # 日本男艺人
 ```
 
 ##  📚 词库来源
